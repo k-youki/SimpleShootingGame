@@ -1,0 +1,23 @@
+﻿2015/03/18 19:06:54 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\YUKI\Dropbox\ソースコード\Aiming提出ゲーム\test2.vcxproj" (Build ターゲット)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (shooting_game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./DXlib /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Keyboard.cpp shootinggame.cpp
+         shootinggame.cpp
+     1>c:\users\yuki\dropbox\ソースコード\aiming提出ゲーム\shootinggame.cpp(374): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\yuki\dropbox\ソースコード\aiming提出ゲーム\shootinggame.cpp(376): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\yuki\dropbox\ソースコード\aiming提出ゲーム\shootinggame.cpp(382): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\yuki\dropbox\ソースコード\aiming提出ゲーム\shootinggame.cpp(388): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\yuki\dropbox\ソースコード\aiming提出ゲーム\shootinggame.cpp(397): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         Keyboard.cpp
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\YUKI\Dropbox\ソースコード\Aiming提出ゲーム\Debug\test2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\YUKI\Documents\Visual Studio 2013\Projects\test2\DxLib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\YUKI\Dropbox\ソースコード\Aiming提出ゲーム\Debug\test2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\YUKI\Dropbox\ソースコード\Aiming提出ゲーム\Debug\test2.lib" /MACHINE:X86 Debug\Keyboard.obj
+         Debug\shootinggame.obj
+         LINK : 前回のインクリメンタル リンクで C:\Users\YUKI\Dropbox\ソースコード\Aiming提出ゲーム\Debug\test2.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+         test2.vcxproj -> C:\Users\YUKI\Dropbox\ソースコード\Aiming提出ゲーム\Debug\test2.exe
+     1>プロジェクト "C:\Users\YUKI\Dropbox\ソースコード\Aiming提出ゲーム\test2.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:03.47
